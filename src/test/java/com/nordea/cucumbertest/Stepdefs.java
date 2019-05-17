@@ -95,7 +95,7 @@ public class Stepdefs {
     public void clickSecondProductForDetails() {
         // find the sorted result
         WebElement sortedResult = driver.findElement(By.className("s-result-list"));
-        WebElement secondItem = sortedResult.findElement(By.xpath("//div[@data-index=\"1\"]"));
+        WebElement secondItem = sortedResult.findElement(By.xpath("//div[@data-index=\"1\"]//a[contains(@class, \"a-text-normal\")]"));
         secondItem.click();
     }
 
