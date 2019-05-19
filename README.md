@@ -23,7 +23,7 @@ chrome or firefox browser. Example usage can refer to the [below](#Usage).
 - Java 8
 - Maven
 - Chrome browser or Firefox browser 
-- Optional: Chrome web driver or Firefox web driver
+- Chrome web driver or Firefox web driver
 
 
 ## Local resources
